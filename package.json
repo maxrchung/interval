@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "oxlint src"
+    "lint": "oxlint src",
+    "format": "oxfmt src",
+    "format:check": "oxfmt --check src"
   },
   "license": "MIT",
   "devDependencies": {
